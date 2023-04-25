@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-indigo-500 px-4 py-2 rounded-lg text-white
+  }
+  .label {
+    @apply w-full focus:outline-none text-sky-900/100 font-sans text-lg
+  }
+
+
+}
